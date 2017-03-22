@@ -7,7 +7,7 @@ namespace Sort;
  * Date: 2017/3/22
  * Time: 上午10:54
  */
-class SelectionSort
+class SelectionSort implements ISort
 {
 
     public function sort(array &$arr, $n)
